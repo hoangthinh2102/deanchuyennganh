@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TodoList App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="todo.css">	
+</head>
+
+<body>
+	<div class="hero">
+		<div class="container">
+			<h1 class="display-2 text-center">TodoList</h1>
+			<p class="lead text-center">Chào mừng bạn đến với todoList Web Applications</p>
+			<div class="row">
+				<form id="form" class="col-lg-6 col-8 mx-auto">
+					<div class="input-group">
+						<input id="input" class="form-control" placeholder="Hãy nhập việc cần làm vào đây" >
+						<span>
+							<button id="btn" type="button" class="btn btn-primary" >Đăng</button>
+						</span>
+					</div>			     
+				</form>
+			</div>			
+			<div class="row">				
+				<ul id="list" class="list col-lg-6 col-8 mx-auto">
+		
+				</ul>
+			</div>
+			<div class="row">
+				<button id="btnClr" type="button" class="btn btn-primary mx-auto btnHide">Xoá</button>
+			</div>				
+		</div>
+	</div>
+	<script src="todolist.js"></script>
+</body>
+</html>
